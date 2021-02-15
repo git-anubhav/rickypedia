@@ -90,7 +90,7 @@ export default function EpisodePage() {
         </div>
         <img
           className="search-gif"
-          src="./images/search/morty-arm (1).png"
+          src="./rickypedia/images/search/morty-arm (1).png"
           alt="mort-arm"
         />
       </div>

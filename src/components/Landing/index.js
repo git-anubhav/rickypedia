@@ -18,7 +18,7 @@ export default function Landing() {
           <Link to="/characters">
             <div className="option">
               <img
-                src="./images/landing/characters.jpg"
+                src="./rickypedia/images/landing/characters.jpg"
                 className="landing-images"
                 alt="characters"
               />
@@ -28,7 +28,7 @@ export default function Landing() {
           <Link to="/episodes">
             <div className="option">
               <img
-                src="./images/landing/episodes.jpg"
+                src="./rickypedia/images/landing/episodes.jpg"
                 className="landing-images"
                 alt="episodes"
               />
