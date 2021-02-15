@@ -19,9 +19,7 @@ const Character = (props) => {
   return (
     <button
       className="char-card"
-      onContextMenu={() => {
-        return false;
-      }}
+      oncontextmenu= {()=>{return false;}}
     >
       <div className="face front">
         <div>
@@ -29,6 +27,7 @@ const Character = (props) => {
             className="character-img"
             src={props.result.image}
             alt={props.result.name}
+            oncontextmenu= {()=>{return false;}}
           />
         </div>
         <div className="name-div">
