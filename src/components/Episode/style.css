@@ -1,0 +1,32 @@
+.eps-card {
+  background-color: rgb(59, 39, 17);
+  margin-bottom: 40px;
+  color: white;
+  border-radius: 10px;
+  width: 370px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.eps-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.eps-info {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  flex-direction: column;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+.eps-name {
+  color: rgb(255, 215, 74);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.eps-date {
+  margin-top: 5px;
+}

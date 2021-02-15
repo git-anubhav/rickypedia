@@ -1,0 +1,117 @@
+.char-card {
+  margin: 0 15px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  width: 300px;
+  height: 340px;
+  position: relative;
+  transform-style: preserve-3d;
+  outline: none;
+  border: none;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.char-card .face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transform: perspective(500px) rotateY(0deg);
+}
+.char-card .face.front {
+  background-color: rgb(59, 39, 17);
+  border-radius: 10px;
+  backface-visibility: hidden;
+}
+.card-content {
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+}
+.char-card:active .face.front {
+  transform: perspective(500px) rotateY(180deg);
+}
+.info-heading {
+  font-size: 1.5rem;
+  color: rgb(255, 215, 74);
+  font-weight: 700;
+}
+.char-card .face.back {
+  background-color: rgb(59, 39, 17);
+  transform: perspective(500px) rotateY(180deg);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.char-card:active .face.back {
+  transform: perspective(500px) rotateY(360deg);
+}
+@media (hover: hover) {
+  .char-card:hover .face.back {
+    transform: perspective(500px) rotateY(360deg);
+  }
+  .char-card:hover .face.front {
+    transform: perspective(500px) rotateY(180deg);
+  }
+}
+.character-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.name-div {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name-div h3 {
+  color: rgb(255, 215, 74);
+  margin: 0;
+  z-index: 10;
+  padding: 0 10px;
+  position: absolute;
+  top: 307px;
+  text-align: center;
+  font-size: 16px;
+}
+@media screen and (min-width: 480px) {
+  .char-card {
+    width: 270px;
+    height: 315px;
+  }
+  .name-div h3 {
+    top: 281px;
+  }
+}
+@media screen and (max-width: 369px) {
+  .char-card {
+    width: 210px;
+    height: 240px;
+    margin-bottom: 30px;
+  }
+  .name-div h3 {
+    top: 214px;
+  }
+  .info-heading {
+    font-size: 16px;
+  }
+}
