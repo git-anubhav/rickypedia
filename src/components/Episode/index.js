@@ -5,7 +5,7 @@ const Episode = (props) => {
   return (
     <div className="eps-card">
       <img
-        src={`./rickypedia/images/episodes/${props.result.id}.jpg`}
+        src={`./images/episodes/${props.result.id}.jpg`}
         className="eps-img"
         alt={props.result.name}
       />
