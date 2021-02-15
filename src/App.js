@@ -9,7 +9,7 @@ function App() {
     <>
     
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <HashRouter>
+        <Route>
           <Route path="/characters">
             <CharacterPage />
           </Route>
@@ -19,7 +19,7 @@ function App() {
           <Route path="/">
             <Landing />
           </Route>
-        </HashRouter>
+        </Route>
       </BrowserRouter>
     </>
   );
