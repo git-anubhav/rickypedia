@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     
-      <Router>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/characters">
             <CharacterPage />
@@ -20,7 +20,7 @@ function App() {
             <Landing />
           </Route>
         </Switch>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
