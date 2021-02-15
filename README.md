@@ -5,7 +5,7 @@ It is responsive and supports live search to enable great user experience.
 
 ![Alt Text](https://media.giphy.com/media/GpimX0KyianQzVRgaO/giphy.gif)
 
-Watch the full demo [here](https://youtu.be/0vz-_vjOGKo) or visit website [here](https://git-anubhav.github.io/rickypedia/)
+Watch the full demo [here](https://youtu.be/0vz-_vjOGKo) or visit website [here](https://git-anubhav.github.io/rickypedia/).
 
 ### Note: Card flips occur by HOVER on mouse supported devices and PRESS AND HOLD on touchscreen devices.
 
