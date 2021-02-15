@@ -50,7 +50,7 @@ export default function CharacterPage() {
     <>
       <div className="header-box">
         <div id="header">
-          <Link to="/">
+          <Link to="/rickypedia">
             <h1 id="logo">Rickypedia</h1>
           </Link>
           <p className="subtext"> The Rick and Morty Encyclopedia</p>
