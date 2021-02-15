@@ -7,7 +7,7 @@ import EpisodePage from "./components/EpisodePage";
 function App() {
   return (
     <>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    
       <Router>
         <Switch>
           <Route path="/characters">
@@ -21,7 +21,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-      </BrowserRouter>
     </>
   );
 }

@@ -50,9 +50,11 @@ export default function CharacterPage() {
     <>
       <div className="header-box">
         <div id="header">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Link to="/">
             <h1 id="logo">Rickypedia</h1>
           </Link>
+          </BrowserRouter>
           <p className="subtext"> The Rick and Morty Encyclopedia</p>
           <input
             onChange={(e) => {
@@ -65,6 +67,7 @@ export default function CharacterPage() {
           />
 
           <div className="nav-buttons">
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Link to="/characters">
               <button
                 type="button"
@@ -76,6 +79,8 @@ export default function CharacterPage() {
                 Characters
               </button>
             </Link>
+            </BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Link to="/episodes">
               <button
                 type="button"
@@ -87,6 +92,7 @@ export default function CharacterPage() {
                 Episodes
               </button>
             </Link>
+            </BrowserRouter>
           </div>
         </div>
         <img
