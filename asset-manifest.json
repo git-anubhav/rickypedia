@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rickypedia/static/css/main.644aedb7.chunk.css",
+    "main.js": "/rickypedia/static/js/main.6b3e771e.chunk.js",
+    "main.js.map": "/rickypedia/static/js/main.6b3e771e.chunk.js.map",
+    "runtime-main.js": "/rickypedia/static/js/runtime-main.702674ac.js",
+    "runtime-main.js.map": "/rickypedia/static/js/runtime-main.702674ac.js.map",
+    "static/js/2.171aa209.chunk.js": "/rickypedia/static/js/2.171aa209.chunk.js",
+    "static/js/2.171aa209.chunk.js.map": "/rickypedia/static/js/2.171aa209.chunk.js.map",
+    "index.html": "/rickypedia/index.html",
+    "static/css/main.644aedb7.chunk.css.map": "/rickypedia/static/css/main.644aedb7.chunk.css.map",
+    "static/js/2.171aa209.chunk.js.LICENSE.txt": "/rickypedia/static/js/2.171aa209.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.702674ac.js",
+    "static/js/2.171aa209.chunk.js",
+    "static/css/main.644aedb7.chunk.css",
+    "static/js/main.6b3e771e.chunk.js"
+  ]
+}
